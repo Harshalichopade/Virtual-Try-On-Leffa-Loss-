@@ -1,29 +1,34 @@
-# --- Core Data Science & ML ---
-numpy==1.26.4          # Using latest stable 1.x that avoids conflicts (1.27.x is bleeding edge)
-scipy==1.13.1          # Latest stable release
-pandas==2.2.3          # Latest stable release
-scikit-learn==1.4.2    # Latest stable release
-
-# --- Deep Learning (PyTorch-based) ---
-torch==2.3.1           # Latest stable PyTorch version
-torchvision==0.18.1    # Compatible with torch 2.3.1
-torchaudio==2.3.1      # Compatible with torch 2.3.1
-
-# --- Hugging Face Ecosystem ---
-transformers==4.42.0   # Latest stable release
-datasets==2.19.2       # Latest stable release
-tokenizers==0.19.1     # Latest stable release
-
-# --- Utilities & Visualization ---
-gradio==4.38.1         # Latest stable release
-matplotlib==3.9.1      # Latest stable release
-onnxruntime==1.18.0    # Keeping your specified version, which is current
-regex==2025.10.1       # Latest stable release
-
-# --- Helper Libraries (Keep as unpinned for maximum compatibility) ---
-imageio
-opencv-python
-tqdm
+av
+accelerate
+config
+cloudpickle
+diffusers
 einops
+fvcore
+gradio
+gradio-client
+imageio
+matplotlib
+numpy
+omegaconf
+onnxruntime
+opencv-python
+pandas
+pillow
+pycocotools
+pyyaml
+psutil
 peft
+regex==2024.5.15
 safetensors
+scikit-image
+scipy
+timm
+tokenizers
+torch
+torchaudio
+torchmetrics
+torchvision
+tqdm
+transformers
+triton
